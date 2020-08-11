@@ -67,7 +67,7 @@ the same column */
 }
 
 .grid > div{
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 
@@ -84,7 +84,7 @@ the same column */
 .intro-hello{
     color: #262626;
     font-family: "open sans light";
-    font-size: 30px;
+    font-size: calc(16px + 1vw);
     letter-spacing: 1px;
     line-height: 41px;
   
@@ -94,16 +94,18 @@ the same column */
     
     color: #187EE6;
     font-family: "roboto black";
-    font-size: calc(2.5rem + 1vw);
+    font-size: calc(1.5rem + 4.3vw);
     letter-spacing: 2.99px;
-    line-height: 105px;
+    /* line-height: 105px; */
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh
 }
 
 .intro-developer-and-coding-samuraio {
    
     color: #262626;
     font-family: "open sans light";
-    font-size: 30px;
+    font-size: calc(16px + 1vw);
     letter-spacing: 1px;
     line-height: 41px;
 }
@@ -124,7 +126,7 @@ the same column */
 
 #lets-talk{
     height: 70px;
-    width: 262px;
+    width: calc(120px + 7vw);
     border-radius: 50px;
     background-color: #F3CA3E;
     color: #FFF;
@@ -144,6 +146,7 @@ the same column */
     justify-self: stretch;
     align-self: center;
     height: 90%;
+    width: 100%;
 }
 
 .path1{
@@ -163,6 +166,7 @@ the same column */
     justify-self: center;
     align-self: center;
     margin-bottom: 35%;
+    max-width: 100%;
 }
 
 .ellipse1-blue{
@@ -170,14 +174,14 @@ the same column */
     grid-row: 4/5;
     align-self: end;
     justify-self: end;
-    
+    max-width: 100%;
 }
 
 .ellipse1-blue-end{
     grid-column: 5/6;
     grid-row: 1/2;
     justify-self: center;
-    
+    max-width: 100%;
 }
 
 /* about me section */
