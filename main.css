@@ -15,7 +15,14 @@
     font-family: "Open Sans SemiBold";
     src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
 }
+@font-face{
+    font-family: "Roboto Black";
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
 
+html,body{
+    width: 100%;
+}
 
 
 /* remove list styles all items in
@@ -173,6 +180,29 @@ the same column */
     
 }
 
+/* about me section */
+.about-me {
+    height: 70px;
+    width: 19.06rem;
+    color: #303030;
+    font-family: "Roboto Black";
+    font-size: calc(29px + 2vw);
+    letter-spacing: 2.55px;
+    line-height: 70px;
+  }
+
+  .i-enjoy-being-challenged-and-e {
+    height: 219.05px;
+    width: 817.75px;
+    color: #303030;
+    font-family: "Open Sans Light";
+    font-size: 25px;
+    letter-spacing: 1.06px;
+    line-height: 49px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 195px;
+  }
 
 
 
