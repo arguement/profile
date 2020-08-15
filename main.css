@@ -337,7 +337,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
   .skill {
     height: 402px;
     /* height: 55.7vh; */
-    width: 342px;
+    /* width: 342px; */
     border-radius: 10px;
     background-color: #FFF;
     box-shadow: 0 0 52px 0 rgba(234,234,234,0.86);
@@ -360,7 +360,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
 
   #skills-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,400px);
+    grid-template-columns: repeat(auto-fit,minmax(300px,400px));
     grid-gap: 50px;
   }
 
@@ -384,7 +384,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
     width: 13.32%; */
     color: #323232;
     font-family: "Open Sans SemiBold";
-    font-size: 25px;
+    font-size: calc(17px + 0.5vw);
     letter-spacing: 1.06px;
     line-height: 34px;
     margin-top: 5.5%;
@@ -395,7 +395,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
     width: 280.44px;
     color: #6A7695;
     font-family: "Open Sans Light";
-    font-size: 16px;
+    font-size: calc(14px + 0.2vw);
     line-height: 22px;
     text-align: center;
     margin-top: 3.6%;
