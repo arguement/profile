@@ -25,13 +25,9 @@
     overflow-x: hidden;
     height: 100%;
 } */
-/* html{
-   
-    overflow-x: hidden;
-}
 body{
-  overflow-x: hidden;
-} */
+  margin: 0;
+}
 
 
 /* remove list styles all items in
