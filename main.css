@@ -474,7 +474,7 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
   .center-flex{
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 2%;
   }
   .wrap-flex{
     flex-wrap: wrap;
@@ -541,6 +541,16 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
 .lets-talk-yellow-cont{
   display: flex;
   justify-content: center;
+}
+
+
+/*handles phones screens*/
+@media only screen and (max-width: 700px) {
+
+  #contact-form {
+    width: 80%;
+  }
+
 }
 
   
