@@ -72,6 +72,7 @@ the same column */
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1px 1px;
     height: 100vh;
+    /* height: 85vw; */
     /* overflow: hidden; */
     
 }
@@ -100,6 +101,7 @@ the same column */
     color: #262626;
     font-family: "open sans light";
     font-size: calc(16px + 1vw);
+    /* font-size: clamp(53px,15vw,150px); */
     letter-spacing: 1px;
     line-height: 41px;
   
