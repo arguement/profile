@@ -71,7 +71,7 @@ the same column */
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1px 1px;
     height: 100vh;
-    /* height: 85vw; */
+    /* height: 85vh; */
     /* overflow: hidden; */
     
 }
@@ -475,7 +475,8 @@ the same column */
     height: 80px;
     background-color: #8b83cd;
 
-    padding: 7%;
+    /* padding: 7%; */
+    padding: 12px 29px;
     box-sizing: border-box;
 
 
@@ -512,7 +513,8 @@ the same column */
     overflow: auto;
     border-width: 0px;
 
-    padding: 7%;
+    /* padding: 7%; */
+    padding: 12px 29px;
     box-sizing: border-box;
 
     width: 100%;
@@ -600,6 +602,14 @@ the same column */
   }
 
 
+
+}
+
+@media only screen and (min-width: 600px)and (max-width: 1024px) {
+
+  .grid {
+    height: 85vh;
+  }
 
 }
 
