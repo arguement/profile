@@ -334,9 +334,14 @@ the same column */
     /* gap: 180px; */
   }
 
-  /* .view-github div {
-    flex: 25%;
-  } */
+  .view-github:hover{
+    /* background-color: #187EE6; */
+    /* background-color: #187ee6; */
+    /* background-color: grey; */
+    background-color: rgba(234,234,234,0.86);
+    cursor: pointer;
+
+  }
 
   .view-github svg{
     width: clamp(57px,8.08vw,124px);

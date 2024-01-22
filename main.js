@@ -36,3 +36,11 @@ $('.regular').slick({
       // instead of a settings object
     ]
   });
+
+  // const myDiv = document.getElementsByClassName("view-github")
+
+  function linkToGithub() {
+
+    window.location.href = "https://github.com/arguement";
+    
+  }
